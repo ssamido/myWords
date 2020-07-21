@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import {Word} from '../model/word'
+import { QuizComponent } from '../pages/quiz/quiz.component'
 
 @Injectable({
   providedIn: 'root'
@@ -6,7 +8,20 @@ import { Injectable } from '@angular/core';
 export class WordServicesService {
 
   constructor() { }
+     public  getWord(id) :Word {
+         console.log(id)
+        let word :Word = {english:"",id:0,arabic:"",french:"",meaning:""};
+        this.words.forEach(element => {
+            
+            if(element.English===id)
 
+              
+              (element.French)?word.french=element.French:word.french="";
+               (element.Arabic)?word.arabic=element.Arabic:word.arabic="";
+               (element.Meaning)?word.meaning=element.Meaning:word.meaning=""
+         });
+         return word;
+    }
   words  = [
         {
             "English": "Gathered",
