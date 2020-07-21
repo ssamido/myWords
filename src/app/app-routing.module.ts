@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { AddWordComponent } from './pages/add-word/add-word.component';
-import { AllWordComponent } from './pages/all-word/all-word.component';
+import { AllWordComponent,MyFilterPipe } from './pages/all-word/all-word.component';
+import { QuizComponent } from './pages/quiz/quiz.component'
 
 const routes: Routes = [
   {
@@ -17,6 +18,11 @@ const routes: Routes = [
   {
     path: 'all-word',
     component:AllWordComponent
+    
+  },
+  {
+    path: 'quiz',
+    component:QuizComponent
     
   },
   {
