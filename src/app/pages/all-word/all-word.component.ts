@@ -24,13 +24,6 @@ export class AllWordComponent implements OnInit {
 }
 }
 
+ 
 
-
-import {Injectable, Pipe , PipeTransform} from '@angular/core';
-
-@Pipe({ name: 'myfilter' })
-export class MyFilterPipe implements PipeTransform {
-    transform(words: any[], args): any {
-        return words.filter(word => word.English.toLowerCase().includes(args.toLowerCase()) );
-    }
-}
+ 

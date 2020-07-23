@@ -948,7 +948,7 @@ export class WordServicesService {
         {
             "English": "Mud",
             "French": "boue",
-            "Arabic": " طين"
+            "Arabic": "طين"
         },
         {
             "English": "Stained ",
@@ -1146,7 +1146,7 @@ export class WordServicesService {
         },
         {
             "English": "Average joe",
-            "French": " personne de profil moyen"
+            "French": "personne de profil moyen"
         },
         {
             "English": "devoted",
@@ -1566,7 +1566,7 @@ export class WordServicesService {
         {
             "English": "Mirage",
             "Arabic": "وهمي",
-            "Meaning": " an image, produced by very hot air of something that seems to be far away but does not really exist"
+            "Meaning": "an image, produced by very hot air of something that seems to be far away but does not really exist"
         },
         {
             "English": "allure",
@@ -1994,7 +1994,7 @@ export class WordServicesService {
             "Meaning": "very well known and important:"
         },
         {
-            "English": " slant",
+            "English": "slant",
             "French": "incliner"
         },
         {
@@ -2765,7 +2765,7 @@ export class WordServicesService {
         {
             "English": "plead ",
             "French": "plaider",
-            "Arabic": " ;التمس;مناشدة"
+            "Arabic": ";التمس;مناشدة"
         },
         {
             "English": "pertain ",
@@ -2851,7 +2851,7 @@ export class WordServicesService {
             "Meaning": "a short period of enjoyment:"
         },
         {
-            "English": " eulogy",
+            "English": "eulogy",
             "French": "éloge",
             "Arabic": "مديح"
         },
